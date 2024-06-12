@@ -1,0 +1,40 @@
+<!-- <mvc:View 
+   controllerName="projectusersadm.controller.App"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <App id="appl">
+      <Page id='app' title="User Management">
+            <IconTabBar id="IcontabBar">
+                <items>
+                    <IconTabFilter id="IconTabFilterUsers"
+                        text="Users Management"
+                        key="users"
+                        icon="sap-icon://group">
+                        <mvc:XMLView id="XMLViewU" viewName="projectusersadm.view.Users"/>
+                    </IconTabFilter>
+                    <IconTabFilter id="IconTabFilterRoles"
+                        text="Roles Management"
+                        key="roles"
+                        icon="sap-icon://role">
+                        <mvc:XMLView id="XMLViewR" viewName="projectusersadm.view.Roles"/>
+                    </IconTabFilter>
+                    <IconTabFilter id="IconTabFilterParam"
+                        text="Parameters Management"
+                        key="parameters"
+                        icon="sap-icon://settings">
+                        <mvc:XMLView id="XMLViewP" viewName="projectusersadm.view.Parameters"/>
+                    </IconTabFilter>
+                </items>
+            </IconTabBar>
+        </Page>
+    </App>
+</mvc:View> -->
+<mvc:View
+    controllerName="projectusersadm.controller.App"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+>
+    <App id="app" />
+</mvc:View>

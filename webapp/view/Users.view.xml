@@ -1,0 +1,54 @@
+<!-- <mvc:View xmlns:unified="sap.ui.unified"
+    controllerName="projectusersadm.controller.Users" 
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="XMLViewU" title="Users Management">
+        <content>
+            <VBox id="vboxu">
+                <unified:FileUploader 
+                    id="fileUploader"
+                    width="400px"
+                    placeholder="Choose a file for Users"
+                    change="onFileChange"/>
+                <RadioButtonGroup id="but1" columns="3">
+                    
+                        <RadioButton id="button1" text="Create" select="onCreate"/>
+                        <RadioButton id="button2" text="Modify" select="onModify"/>
+                        <RadioButton id="button3" text="Delete" select="onDelete"/>
+                    
+                </RadioButtonGroup>
+                <Button id="buttons" text="Submit" press="onSubmit"/>
+                
+            </VBox>
+        </content>
+    </Page>
+</mvc:View> -->
+<mvc:View
+    xmlns:unified="sap.ui.unified"
+    controllerName="projectusersadm.controller.Users"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <VBox id="vboxu">
+        <unified:FileUploader
+            id="fileUploader"
+            width="400px"
+            placeholder="Choose a file for Users"
+            change="onFileChange"
+        />
+        <RadioButtonGroup id="but1" columns="1" >
+            <RadioButton
+                id="button1"
+                text="Create users"
+            />
+            <RadioButton
+                id="button2"
+                text="Modify users"
+            />
+            <RadioButton
+                id="button3"
+                text="Delete users"
+            />
+        </RadioButtonGroup>
+        <Button id="buttons" text="Submit"/>
+    </VBox>
+</mvc:View>

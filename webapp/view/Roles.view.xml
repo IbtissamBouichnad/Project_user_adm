@@ -1,0 +1,8 @@
+<mvc:View
+    controllerName="projectusersadm.controller.Roles"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+      
+         <Button id="but1" text="ajouter"></Button>
+   
+</mvc:View>
